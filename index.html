@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alocher - Collection de Chaises</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar navbar-expand-lg bg-white border-bottom py-3 px-lg-5 px-3">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+            <div class="logo me-3">
+                <img src="images/logo.jpg" alt="logo" height="40">
+            </div>
+
+            <nav class="navbar-nav me-auto">
+                <ul class="d-flex align-items-center list-unstyled mb-0 gap-2">
+                    <li class="dropdown position-relative">
+                        <a href="#" class="nav-link-custom">furniture</a>
+                        <div class="dropdown-content">
+                            <div>
+                                <h4>Tables</h4>
+                                <a href="#">Study table 1</a>
+                                <a href="#">Study table 2</a>
+                            </div>
+                            <div>
+                                <h4>Tables</h4>
+                                <a href="#">Study table 3</a>
+                                <a href="#">Study table 4</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link-custom">armoires</a></li>
+                    <li><a href="#" class="nav-link-custom">study table</a></li>
+                    <li><a href="#" class="nav-link-custom">plastic chair</a></li>
+                    <li><a href="#" class="nav-link-custom">war drobes</a></li>
+                    <li><a href="#" class="nav-link-custom">more</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons d-flex align-items-center gap-4">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <div class="cart d-flex align-items-center gap-2 fw-bold">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Your Bag</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero my-4 mx-lg-5 mx-3 p-5 rounded d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <div class="hero-text mb-4 mb-md-0">
+            <h1 class="display-4 fw-bold mb-4">Wooden Chair<br>Collection</h1>
+            <button class="btn btn-light rounded-0 px-4 py-2 fw-bold text-dark">Shop Now</button>
+        </div>
+        <div class="hero-image text-center">
+            <img src="images/hero.png" alt="Wooden Chair" class="img-fluid" style="max-width: 400px;">
+        </div>
+    </section>
+
+    <!-- Special Category -->
+    <section class="special-category text-center py-5 px-lg-5 px-3">
+        <h2 class="mb-4">Special category</h2>
+        <div class="row g-4">
+            
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0 bg-transparent h-100">
+                    <img src="images/chair1.jpg" alt="Velvet Chair" class="img-fluid">
+                    <div class="card-body d-flex justify-content-between align-items-end p-0 pt-2">
+                        <div class="card-text text-start">
+                            <p class="subtitle mb-1 text-muted small">Most Popular</p>
+                            <h3 class="h6 fw-bold m-0 text-dark">Velvet Accent Chair</h3>
+                        </div>
+                        <a href="#" class="arrow-btn">&gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0 bg-transparent h-100">
+                    <img src="images/chair2.jpg" alt="Rattan Chair" class="img-fluid">
+                    <div class="card-body d-flex justify-content-between align-items-end p-0 pt-2">
+                        <div class="card-text text-start">
+                            <p class="subtitle mb-1 text-muted small">Best Seller</p>
+                            <h3 class="h6 fw-bold m-0 text-dark">Natural Rattan Chair</h3>
+                        </div>
+                        <a href="#" class="arrow-btn">&gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0 bg-transparent h-100">
+                    <img src="images/chair3.jpg" alt="Leather Chair" class="img-fluid">
+                    <div class="card-body d-flex justify-content-between align-items-end p-0 pt-2">
+                        <div class="card-text text-start">
+                            <p class="subtitle mb-1 text-muted small">New Arrival</p>
+                            <h3 class="h6 fw-bold m-0 text-dark">Modern Leather Chair</h3>
+                        </div>
+                        <a href="#" class="arrow-btn">&gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0 bg-transparent h-100">
+                    <img src="images/chair4.jpg" alt="Black Chair" class="img-fluid">
+                    <div class="card-body d-flex justify-content-between align-items-end p-0 pt-2">
+                        <div class="card-text text-start">
+                            <p class="subtitle mb-1 text-muted small">Featured</p>
+                            <h3 class="h6 fw-bold m-0 text-dark">Minimalist Lounge Chair</h3>
+                        </div>
+                        <a href="#" class="arrow-btn">&gt;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Promos Container -->
+    <section class="promos-container container-fluid px-lg-5 px-3 mb-5">
+        <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="testimonial-box p-4 h-100">
+                    <i class="fas fa-quote-left quote-icon fs-3 mb-3"></i>
+                    <h3 class="h5 fw-bold m-0">Penelop Astrid</h3>
+                    <span class="role text-muted small">(Lead Interior Designer)</span>
+                    <p class="mt-3">
+                        Our crafted furniture blends timeless elegance with modern comfort, transforming simple spaces into beautiful, functional homes. 
+                        Each piece is thoughtfully designed with high-quality materials to ensure long-lasting durability, exceptional stability, and superior aesthetic appeal for any contemporary interior space.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="promo-box promo-1 p-4 rounded h-100 d-flex flex-column justify-content-start">
+                    <span class="discount badge bg-white text-dark w-auto align-self-start mb-2 px-2 py-1 fs-6">30% Discount</span>
+                    <h3 class="h5 fw-bold text-white">Modern Interior Styling</h3>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="promo-box promo-2 p-4 rounded h-100 d-flex flex-column justify-content-start">
+                    <span class="discount badge bg-white text-dark w-auto align-self-start mb-2 px-2 py-1 fs-6">20% Discount</span>
+                    <h3 class="h5 fw-bold text-white">Wooden Chair Collection</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-4 px-lg-5 px-3 border-bottom border-top">
+        <div class="row text-center g-4">
+            <div class="col-6 col-md">
+                <div class="feature-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h4>Free Delivery</h4>
+                    <p>Free Shipping On All Orders</p>
+                </div>
+            </div>
+            <div class="col-6 col-md">
+                <div class="feature-item">
+                    <i class="fas fa-piggy-bank"></i>
+                    <h4>Money Savings</h4>
+                    <p>Best Prices & Great Deals</p>
+                </div>
+            </div>
+            <div class="col-6 col-md">
+                <div class="feature-item">
+                    <i class="fas fa-user-shield"></i>
+                    <h4>Online Support</h4>
+                    <p>24/7 Dedicated Support</p>
+                </div>
+            </div>
+            <div class="col-6 col-md">
+                <div class="feature-item">
+                    <i class="fas fa-percentage"></i>
+                    <h4>Big Promotion</h4>
+                    <p>Save Up To 50% Off</p>
+                </div>
+            </div>
+            <div class="col-6 col-md">
+                <div class="feature-item">
+                    <i class="fas fa-undo-alt"></i>
+                    <h4>Easy Returns</h4>
+                    <p>30 Days Return Policy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produits Vedettes -->
+    <section class="featured-products py-5 container">
+        <h2 class="text-center fw-bold mb-3">Featured Products</h2>
+        <ul class="filter-tabs d-flex justify-content-center gap-4 list-unstyled mb-5">
+            <li class="active">Wooden Chair</li>
+            <li>Plastic Chair</li>
+            <li>Study Table</li>
+            <li>Armoires</li>
+        </ul>
+
+        <div class="row g-4">
+            
+            <!-- Produit 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair 6.jpg" alt="Modern Wooden Dining Chair">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="m-0 text-dark">Modern Wooden Chair</p>
+                        <span class="price fw-bold text-dark">120$</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair 7.jpg" alt="Black Modern Bar Stool">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="m-0 text-dark">Nordic Black High Stool</p>
+                        <span class="price fw-bold text-dark">95$</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair 8.jpg" alt="Minimalist Oak Chair">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="m-0 text-dark">Minimalist Oak Chair</p>
+                        <span class="price fw-bold text-dark">110$</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair 9.jpg" alt="Sculptural Aluminum Console Desk">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="m-0 text-dark">Sculptural Aluminum Desk</p>
+                        <span class="price fw-bold text-dark">240$</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair 10.jpg" alt="Modernist Sculpted Rocking Chair">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="m-0 text-dark">Sculpted Rocking Chair</p>
+                        <span class="price fw-bold text-dark">185$</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/chair11.png" alt="Futuristic Coffee Table">
+                        <div class="social-overlay">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info mt-3 text-start">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="m-0 text-dark">Futuristic Glass Coffee Table</p>
+                        <span class="price fw-bold text-dark">210$</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="py-3 text-center text-white" style="background-color: rgb(200, 172, 135);">
+        <p class="m-0 small">&copy; 2026 Rocker | Design & E-Commerce - Batna</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
